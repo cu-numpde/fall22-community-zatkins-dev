@@ -1,54 +1,47 @@
 # Community Software Analysis Proposal
-Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *Gridap.jl*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+*Gridap.jl* is a Julia package which implements grid-based approximations of PDEs. 
+Its supported features include linear and non-linear PDEs with a variety of different finite element discretizations, as well as support for unstructured meshes.
+On top of having very strong numerical capabilities, the real appeal of *Gridap.jl* is in its extremely straightforward and expressive API.
+The weak form of problems can be written in a fashion which is virtually identical to the mathematical notation.
 
 ### Stats
 
 | Description | Your answer |
-|---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2021-10-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+|-----------------------------------------------------------|-----------|
+| Repository URL                                            | [Github](https://github.com/gridap/Gridap.jl/) |
+| Main/documentation website                                | [Homepage](https://gridap.github.io/Gridap.jl/dev/) |
+| Year project was started                                  | 2019 |
+| Number of contributors in the past year (`git shortlog -se --since=2021-10-01` may be useful) | 16 |
+| Number of contributors in the lifetime of the project     | 34 |
+| Number of distinct affiliations                           | Around 5, although many use personal accounts |
+| Where do development discussions take place?              | Issues on Github, Slack (#gridap channel in JuliaLang slack), and Gitter  |
+| Typical number of emails/comments per week?               |   |
+| Typical number of commits per week?                       | Around 24 commits/week over entire project life, around 14 commits/week since 2021 |
+| Typical commit size                                       | Average files changed: 3.7; average insertions: 64 lines; average deletions: 46 lines |
+| How does the project accept contributions?                | Pull requests   |
+| Does the project have an automated test suite?            | yes |
+| Does the project use continuous integration?              | yes |
+| Are any legal/licensing steps required to contribute?     | no |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [x] I have installed the software
+- [x] I have run at least one example
+  - small issue: appeared to have issues when instantiating tutorials, but seems to work fine
+- [x] I have run the test suite
+- [x] The test suite passes
+  - Passes on WSL, seems to have issues with Windows
 
 ### Notes/concerns/risks
 
-Please comment on any anomalies or known risks to following this
-project, if you were unable to answer any questions above, or
-otherwise have concerns about the appropriateness of the software.  If
-the project requires a contributor license agreement or other
-procedural steps, please explain here.  "None at this time" is
-acceptable for this question.
+None at this time.
 
-#### Note on copyright
-Students retain copyright on any work done in completion of a CU
-course, so you are authorized to sign a [contributor license
-agreement (CLA)](https://en.wikipedia.org/wiki/Contributor_License_Agreement),
-affirm a [developer's certificate of
-origin (DCO)](https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin),
-etc.  If you have concerns about this, please note them and/or reach
-out to Jed directly.
+### Potential Project Contributions
+- Many tutorials need additional documentation (i.e. code is written, but images and descriptions of problems need to be added)
+- Code coverage is okay (~88%), but could certainly be improved
