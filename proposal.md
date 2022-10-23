@@ -18,7 +18,7 @@ The weak form of problems can be written in a fashion which is virtually identic
 | Number of contributors in the lifetime of the project     | 34 |
 | Number of distinct affiliations                           | Around 5, although many use personal accounts |
 | Where do development discussions take place?              | Issues on Github, Slack (#gridap channel in JuliaLang slack), and Gitter  |
-| Typical number of emails/comments per week?               |   |
+| Typical number of emails/comments per week?               | ~24 messages in their Gitter in the last week |
 | Typical number of commits per week?                       | Around 24 commits/week over entire project life, around 14 commits/week since 2021 |
 | Typical commit size                                       | Average files changed: 3.7; average insertions: 64 lines; average deletions: 46 lines |
 | How does the project accept contributions?                | Pull requests   |
