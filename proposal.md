@@ -7,6 +7,9 @@ Its supported features include linear and non-linear PDEs with a variety of diff
 On top of having very strong numerical capabilities, the real appeal of *Gridap.jl* is in its extremely straightforward and expressive API.
 The weak form of problems can be written in a fashion which is virtually identical to the mathematical notation.
 
+The primary audience of *Gridap.jl* appears to be researchers who want to easily solve PDEs without needing to understand the full intricacies of the methods used to do so. 
+Additionally, *Gridap.jl* provides enough powerful methods to support the needs of the wider audience of numerical analysts, especially due to their support for often-unsupported features, such as multi-field solvers, unstructured meshes, and flexible and easy-to-implement boundary conditions.
+
 ### Stats
 
 | Description | Your answer |
